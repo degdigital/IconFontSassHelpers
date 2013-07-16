@@ -1,0 +1,21 @@
+$icon-font-family: 'Custom Icon';
+
+$icon-fonts: "menu"         "\e000"
+             "arrow-down"   "\e001"
+             "arrow-up"     "\e002"
+             "arrow-right"  "\e003"
+             "arrow-left"   "\e004"
+             "facebook"     "\e005"
+             "twitter"      "\e006"
+             "share"        "\e007";
+
+@font-face {
+    font-family: $icon-font-family;
+    src:url('../fonts/icomoon.eot');
+    src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.woff') format('woff'),
+        url('../fonts/icomoon.ttf') format('truetype'),
+        url('../fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
