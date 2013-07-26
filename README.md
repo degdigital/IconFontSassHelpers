@@ -1,5 +1,4 @@
 # Simple Icon Font Sass Helper
-========================
 
 Whenever defining and using icon font libraries, especially in larger projects, icon definitions seemed to get lost in all of the pseudo element definitions and the encoded character uses.  So why not leverage SASS and create a simple way to keep your icon uses readable and maintainable.
 
