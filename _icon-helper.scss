@@ -1,0 +1,20 @@
+@mixin icon($char: false, $base: true) {
+    &:before {
+        @if ($base) {
+            font-family: $icon-font-family;
+            font-style: normal;
+            font-weight: normal;
+            speak: none;
+            display: inline-block;
+            text-decoration: inherit;
+            text-align: center;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1em;
+        }
+        @if ($char) {
+            content: $char;
+        }
+        @content;
+    }
+}
