@@ -24,7 +24,7 @@ $icon-share        : "\e007";
 This is a simple yet flexible mixin that keeps your css clean and manageable.
 
 ```
-@import "iconfont-helpers";
+@import "icon-helper";
 ```
 
 ### Use your icon fonts
