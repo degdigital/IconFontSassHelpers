@@ -46,7 +46,7 @@ Now that the helper is brought in, here are a few ways to use it.  You want to k
 ```
 .submit-button {
     @include icon($icon-arrow-right, $after: true) {
-        color: $color-button-icon;
+        color: black;
     }
 }
 ```
