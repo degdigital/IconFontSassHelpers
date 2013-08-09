@@ -1,11 +1,15 @@
-@mixin icon($char: false, $base: true) {
-    &:before {
+@mixin icon($char: false, $base: true, $after: false) {
+    $pseudo: before;
+    @if ($after) {
+        $pseudo: after;
+    }
+    &:#{$pseudo} {
         @if ($base) {
-            font-family: $icon-font-family;
+            font-family: $font-family-icon;
             font-style: normal;
             font-weight: normal;
             speak: none;
-            display: inline-block;
+            @include inline-block(none);
             text-decoration: inherit;
             text-align: center;
             font-variant: normal;

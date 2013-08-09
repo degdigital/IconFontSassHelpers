@@ -41,6 +41,16 @@ Now that the helper is brought in, here are a few ways to use it.  You want to k
 }
 ```
 
+#### Add icon in the after psuedo-element (instead of before)
+
+```
+.submit-button {
+    @include icon($icon-arrow-right, $after: true) {
+        color: $color-button-icon;
+    }
+}
+```
+
 #### Include base and add icon later
 
 ```
